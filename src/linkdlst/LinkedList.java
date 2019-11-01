@@ -1,10 +1,10 @@
 package linkdlst;
 
-public class LindListConstruct {
+public class LinkedList {
 	
 	public Node head;
 
-	public LindListConstruct() {
+	public LinkedList() {
 		this.head = null;
 	}	
 	

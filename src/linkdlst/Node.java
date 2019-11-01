@@ -1,6 +1,8 @@
 package linkdlst;
 
 public class Node {
+	
+	//node class to create the linkedlist
 
 	public int data;
 	public Node next;

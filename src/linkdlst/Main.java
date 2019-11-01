@@ -1,11 +1,11 @@
 package linkdlst;
 
-public class LinkdList {
+public class Main {
 
 	public static void main(String[] args) {
 		//Node head = new Node(5);
 		
-		LindListConstruct l1 = new LindListConstruct();
+		LinkedList l1 = new LinkedList();
 		l1.insert(5);
 		l1.insert(10);
 		l1.insert(15);
@@ -13,14 +13,8 @@ public class LinkdList {
 		l1.insert(25);
 		l1.insert(30);
 		l1.insert(35);
-		
-		l1.printList();
-		l1.size();
-	
+
 		l1.insertAt(0, 10);
-		
-		l1.printList();
-		l1.size();
 		
 		l1.delete(5);
 		l1.delete(45);
@@ -29,6 +23,20 @@ public class LinkdList {
 		l1.printList();
 		l1.size();
 		
+		System.out.println("______________________");
+		
+		Stack stack = new Stack(5);
+		
+		stack.push(10);
+		stack.push(15);
+		stack.push(20);
+		stack.push(25);
+		
+		stack.show();
+		
+		stack.pop();
+		
+		stack.show();
 
 	
 	}
