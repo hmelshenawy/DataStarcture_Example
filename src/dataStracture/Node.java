@@ -1,4 +1,4 @@
-package linkdlst;
+package dataStracture;
 
 public class Node {
 	
